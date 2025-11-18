@@ -61,3 +61,60 @@ body {
     padding-bottom: 0.5rem;
 }
 
+.exemplo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.cor-nome {
+    background-color: red;
+}
+
+.cor-hex {
+    background-color: #3498db;
+}
+
+.cor-rgb {
+    background-color: rgb(46, 204, 113);
+}
+
+.cor-rgba {
+    background-color: rgba(155, 89, 182, 0.7);
+    color: #333;
+}
+
+.cor-hsl {
+    background-color: hsl(48, 89%, 60%);
+    color: #333;
+}
+
