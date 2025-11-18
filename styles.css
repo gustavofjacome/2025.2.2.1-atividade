@@ -389,3 +389,80 @@ body {
     background: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);
 }
 
+.exercicio-container h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.exercicio-container > p {
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.card-exercicio {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.card-exercicio h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.card-exercicio p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.btn-exercicio {
+    background-color: #ffd140;
+    color: #333;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-exercicio:hover {
+    background-color: #ffed4e;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 209, 64, 0.5);
+}
+
+.dicas {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffd140;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.dicas h4 {
+    color: #856404;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.dicas ul {
+    list-style-position: inside;
+    color: #856404;
+}
+
+.dicas li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
