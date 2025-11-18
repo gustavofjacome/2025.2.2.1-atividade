@@ -466,3 +466,38 @@ body {
     line-height: 1.6;
 }
 
+.footer-principal {
+    background: linear-gradient(to right, #764ba2, #667eea);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-principal p {
+    margin: 0.5rem 0;
+    font-weight: 300;
+}
+
+.footer-principal p:first-child {
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .header-principal h1 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitulo {
+        font-size: 1rem;
+    }
+    
+    .exemplo-grid,
+    .gradientes-showcase {
+        grid-template-columns: 1fr;
+    }
+    
+    .secao {
+        padding: 1.5rem;
+    }
+}
