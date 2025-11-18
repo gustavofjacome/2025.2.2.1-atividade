@@ -118,3 +118,52 @@ body {
     color: #333;
 }
 
+.paleta-cores {
+    margin-top: 2rem;
+}
+
+.paleta-cores h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.paleta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.cor-item {
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cor-primaria {
+    background-color: #667eea;
+}
+
+.cor-secundaria {
+    background-color: #764ba2;
+}
+
+.cor-terciaria {
+    background-color: #f093fb;
+}
+
+.cor-acento {
+    background-color: #ffd140;
+    color: #333;
+}
+
+.cor-neutra {
+    background-color: #95a5a6;
+}
+
