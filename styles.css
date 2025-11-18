@@ -272,3 +272,120 @@ body {
     background-repeat: no-repeat;
     background-color: #ecf0f1;
 }
+
+.exemplo-posicao {
+    margin-top: 2rem;
+}
+
+.exemplo-posicao h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.posicao-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pos-item {
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=400');
+    background-size: 150%;
+    background-color: rgba(102, 126, 234, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bg-pos-center {
+    background-position: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.bg-pos-top {
+    background-position: top;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bg-pos-bottom {
+    background-position: bottom;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.bg-pos-left {
+    background-position: left;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.bg-pos-right {
+    background-position: right;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.gradientes-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.gradiente-item {
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gradiente-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.gradiente-item code {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    word-break: break-all;
+}
+
+.grad-linear-2 {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.grad-linear-3 {
+    background: linear-gradient(to right, #f093fb, #f5576c, #ffd140);
+}
+
+.grad-linear-diagonal {
+    background: linear-gradient(45deg, #FA8BFF, #2BD2FF, #2BFF88);
+}
+
+.grad-radial {
+    background: radial-gradient(circle, #667eea, #764ba2);
+}
+
+.grad-complexo {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+
+.grad-radial-complexo {
+    background: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);
+}
+
