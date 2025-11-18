@@ -167,3 +167,83 @@ body {
     background-color: #95a5a6;
 }
 
+.exemplo-tipografia {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tipo-exemplo {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.tipo-exemplo h3 {
+    color: #764ba2;
+    margin-bottom: 1rem;
+}
+
+.tipo-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.peso-light {
+    font-weight: 300;
+}
+
+.peso-normal {
+    font-weight: 400;
+}
+
+.peso-bold {
+    font-weight: 700;
+}
+
+.tipo-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.tipo-playfair p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.tipo-sistema {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tamanho-14 {
+    font-size: 14px;
+}
+
+.tamanho-16 {
+    font-size: 1em;
+}
+
+.tamanho-18 {
+    font-size: 1.125rem;
+}
+
+.tamanho-24 {
+    font-size: 1.5rem;
+}
+
+.espacamento {
+    background-color: #e8f4f8;
+}
+
+.linha-compacta {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.linha-normal {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.linha-ampla {
+    line-height: 2.0;
+}
